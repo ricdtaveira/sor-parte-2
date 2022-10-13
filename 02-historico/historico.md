@@ -24,7 +24,7 @@ Tecnicamente, o GNU é como o Unix. Mas ao contrário do Unix, o GNU dá aos usu
 e evolui-lo.
 >
  
-![Richard Stalman em 2014.](/99-figurasimage/ricahrd_stalman.png)
+![Richard Stalman em 2014.](/99-figuras/richard_stalman.png)
 
 ### Linux ###
 >
@@ -45,3 +45,5 @@ Um ano depois, o Linux adotou a forma de licenciamento GNU General Public Licens
 licenciamento permite a distribuição e venda de versões modificadas do Linux, porém requer que 
 todas as cópias sejam lançadas dentro da mesma licença e acompanhadas de acesso ao código fonte.
 >
+
+![Linus Torvalds em 2014.](/99-figuras/lunus-torvalds.png)
