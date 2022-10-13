@@ -3,8 +3,15 @@
 ## Sistemas Operaconais ##
 
 ## Unix ##
+>
+
+
+>
 
 ## Projeto GNU/LINUX ##
+>
+O Projeto GNU/LINUX é uma iniciativa conjunta de dois idealizadores e adeptos aos projetos OpenSource, Richard Stallman e Linus Torvalds.
+>
 
 ### GNU ###
 >
@@ -24,7 +31,7 @@ Tecnicamente, o GNU é como o Unix. Mas ao contrário do Unix, o GNU dá aos usu
 e evolui-lo.
 >
  
-![Richard Stalman em 2014.](/99-figuras/richard_stalman.png)
+![Richard Stalman em 2014.](/99-figuras/richard_stalman.png "Richard Stalman em 2014.")
 
 ### Linux ###
 >
@@ -46,4 +53,4 @@ licenciamento permite a distribuição e venda de versões modificadas do Linux,
 todas as cópias sejam lançadas dentro da mesma licença e acompanhadas de acesso ao código fonte.
 >
 
-![Linus Torvalds em 2014.](/99-figuras/linus_torvalds.png)
+![Linus Torvalds em 2014.](/99-figuras/linus_torvalds.png "Linus Torvalds em 2014.")
