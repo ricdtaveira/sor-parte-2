@@ -46,4 +46,4 @@ licenciamento permite a distribuição e venda de versões modificadas do Linux,
 todas as cópias sejam lançadas dentro da mesma licença e acompanhadas de acesso ao código fonte.
 >
 
-![Linus Torvalds em 2014.](/99-figuras/lunus-torvalds.png)
+![Linus Torvalds em 2014.](/99-figuras/linus_torvalds.png)
