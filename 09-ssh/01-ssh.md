@@ -4,7 +4,7 @@
 O SSH é um serviço que permite o acesso remoto a uma máquina que possui um SSH Server executando.
 >
 >
-
+O Processo que executa o SSH Server é chamado de sshd. Daemon de ssh server.
 >
 ## Instalação do SSH Server ##
 
@@ -24,19 +24,35 @@ $ sudo apt install openssh-server
 ### Iniciar um servidor SSH ### Iniciar
 >
 ```
-sudo systemctl start ssh.service
+$ sudo systemctl start ssh.service
 ```
 >
 
 ### Parar um servidor SSH ### 
 >
 ```
-sudo systemctl stop ssh.service
+$ sudo systemctl stop ssh.service
 ```
 >
 ### Reiniciar um servidor SSH ###
 >
 ```
-sudo systemctl restart ssh.service
+$ sudo systemctl restart ssh.service
 ```
 >
+
+### Verificar o status do servidor SSH ###
+>
+```
+$ sudo systemctl status ssh.service
+```
+>
+
+### Habilitar e iniciar sshd pra funcionar em boot time ###
+>
+```
+$ sudo systemctl enable ssh.service
+```
+>
+
+
