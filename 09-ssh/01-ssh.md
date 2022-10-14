@@ -19,7 +19,15 @@ $ sudo apt install openssh-server
 ```
 >
 
-## Comandos para verificar o serviço SSH ##
+## Comandos para verificar o serviço SSH ## 
+
+### Verificar se o pacote ssh server está instalado no Linux ###
+>
+```
+$ sudo dpkg -l | less | grep ssh
+
+```
+>
 
 ### Iniciar um servidor SSH ### Iniciar
 >
@@ -48,11 +56,17 @@ $ sudo systemctl status ssh.service
 ```
 >
 
-### Habilitar e iniciar sshd pra funcionar em boot time ###
+### Habilitar e iniciar sshd para funcionar em boot time ###
 >
 ```
 $ sudo systemctl enable ssh.service
 ```
 >
 
+### Verificar se o sshd está habilitado para boot time ###
+>
+```
+$ sudo systemctl is-enabled ssh.service
+```
+>
 
