@@ -35,12 +35,19 @@ $ sudo dpkg -l | less | grep ssh
 $ sudo systemctl start ssh.service
 ```
 >
+>
+No WSL usar o comando `sudo service ssh start`
+>
 
 ### Parar um servidor SSH ### 
 >
 ```
 $ sudo systemctl stop ssh.service
 ```
+>
+
+>
+No WSL usar o comando `sudo service ssh stop`
 >
 ### Reiniciar um servidor SSH ###
 >
@@ -49,11 +56,19 @@ $ sudo systemctl restart ssh.service
 ```
 >
 
+>
+No WSL usar o comando `sudo service ssh restart`
+>
+
 ### Verificar o status do servidor SSH ###
 >
 ```
 $ sudo systemctl status ssh.service
 ```
+>
+
+>
+No WSL usar o comando `sudo service ssh status`
 >
 
 ### Habilitar e iniciar sshd para funcionar em boot time ###
@@ -69,4 +84,6 @@ $ sudo systemctl enable ssh.service
 $ sudo systemctl is-enabled ssh.service
 ```
 >
+
+
 
