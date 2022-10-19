@@ -3,12 +3,12 @@
 ## Sistemas Operacionais ##
 >
 Um Sistema operacional é um software que gerencia um hardware composto por memória, CPU, interfaces para conexão em 
-em rede e dispositivos periféricos.
+rede e dispositivos periféricos.
 >
 
 ## Unix ##
 >
-Unix é um sistema operacional de proposito geral concebido nos Laboratórios Bell AT&T.
+Unix é um sistema operacional de proposito geral concebido nos Laboratórios Bell da AT&T.
 >
 >
 O Sistema Operacional Unix começou a operar em um computador DEC PDP-7 abandonado 
@@ -16,7 +16,7 @@ nos Laboratórios Bell em 1969.
 >
 >
 Ken Thompson, com ideias e suporte de Rudd Canaday, Doug McIlroy, Joe Ossanna, e Dennis Ritchie, escreveram 
-um pequeno sistema de proposito geral de tempo compartilhado. O objetivo era disponibiliar um sistema confortavel 
+um pequeno sistema de proposito geral de tempo compartilhado. O objetivo era disponibilizar um sistema confortavel 
 o suficiente para atrair usuários entusiastas e eventualmente obter credibilidade para adquirir um computador maior - no caso 
 um PDP-11/20. 
 >
