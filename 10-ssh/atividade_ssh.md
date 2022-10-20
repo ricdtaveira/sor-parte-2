@@ -2,8 +2,13 @@
 
 ## Roteiro ##
 >
+Usando um WSL ou um Virtual Box faça as seguintes atividades: 
+>
+>
 1. Instalar um SSH Server e um SSH Client(usar preferencialmente o Putty no Windows).   
 1. Criar as Chaves Pública e Privada.
+1. Copiar a chave Publica no SSH Server. 
+1. Fazer um login remoto a partir do SSH Client para um SSH Server.
 1. Evidenciar a sequencia das operações com prints em PDF.
 > 
 
