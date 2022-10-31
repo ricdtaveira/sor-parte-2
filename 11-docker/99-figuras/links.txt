@@ -1,0 +1,9 @@
+Arquitetura Docker
+https://docs.docker.com/get-started/overview/
+
+Conteinerizar um aplicativo
+https://docs.docker.com/get-started/02_our_app/
+
+Comandos básicos
+https://stack.desenvolvedor.expert/appendix/docker/comandos.html
+
