@@ -35,7 +35,7 @@ com a `run` . O parâmetro `-i` diz ao Docker que queremos ter
 interatividade com o container, e o `-t` que queremos nos linkar
 ao terminal do container. 
 >
-Em seguida, informamos o nome da imagem usada, no caso ubuntu, e passamos o 
+Em seguida, informamos o nome da imagem usada, no caso `ubuntu`, e passamos o 
 comando `/bin/bash` como argumento permitindo usar o shell do container.
 >
 >
