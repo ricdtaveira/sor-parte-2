@@ -132,6 +132,9 @@ $ sudo systemctl status docker
 ![Status de Execução do Docker.](/11-docker/02-instalacao/99-imagens/tela_03.png "Verificação da Execução.")
 >
 >
+O Status Active: active (running) indica qe o Docker está carregado e executando.
+>
+>
 Se, por algum motivo, o Docker não estiver em execução, basta executar o seguinte 
 comando:
 >
