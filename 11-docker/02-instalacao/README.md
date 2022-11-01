@@ -46,11 +46,10 @@ Para fazer isso, adicionaremos a chave GPGK.
 $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
 >
-Depois de adicionado, adicione o repositório do Docker da seguinte maneira.
+Depois de adicionada chave gpg, adicione o repositório do Docker da seguinte maneira.
 >
 >
-Como o Ubuntu 22.04 ainda não foi lançado oficialmente, adicione o repositório 
-para o Ubuntu 20.04 Stable.
+Nota: O Comando abaixo adiciona o repositório para o Ubuntu 20.04 Stable.
 >
 >
 ```
@@ -66,6 +65,29 @@ o Docker e os pacotes associados.
 $ sudo apt install docker-ce docker-ce-cli containerd.io -y
 ```
 >
+>
+O Comando acima instala o Docker e todos os pacotes, bibliotecas e dependências 
+adicionais exigidos pelo Docker e pacotes associados.
+>
+>
+Depois que o comando for executado com êxito, considere adicionar o usuário 
+conectado no momento ao grupo docker. 
+>
+Isso permite que você execute o docker sem invocar o sudo.
+>
+>
+```
+$ sudo usermod -aG docker $USER
+```
+>
+>
+```
+$ newgrp docker
+```
+>
+>
+Agora você pode executar comandos do Docker como um usuário 
+comum sem nenhum impedimento.
 >
 ### Passo 4 - Confirme se o Docker está instalado ###
 
