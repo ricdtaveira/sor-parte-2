@@ -21,10 +21,12 @@ Para isso, execute o comando:
 $ sudo apt update
 ```
 >
-### Passo 2 - Instalar Dependencias ###
+### Passo 2 - Instalar Dependências ###
 >
 Algumas dependências são necessárias para que a instalação ocorra sem problemas. 
-Portanto, execute o seguinte comando para instalá-las:
+>
+>
+Portanto, execute o comando abaixo para instalá-las:
 >
 >
 ```
@@ -33,7 +35,7 @@ $ sudo apt install apt-transport-https curl gnupg-agent ca-certificates software
 >
 ### Passo 3 - Instale o Docker no Ubuntu ###
 >
-Com os requisitos instalados, a próxima etapa é instalar o Docker. 
+Com as dependências instaladas, a próxima etapa é instalar o Docker. 
 >
 >
 Instalaremos o Docker Community Edition ( Docker CE ) que é de código aberto e gratuito para download e uso.
@@ -46,7 +48,7 @@ Para fazer isso, adicionaremos a chave GPGK.
 $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
 >
-Depois de adicionada chave gpg, adicione o repositório do Docker da seguinte maneira.
+Depois de adicionada chave GPGK, adicione o repositório do Docker da seguinte maneira.
 >
 >
 Nota: O Comando abaixo adiciona o repositório para o Ubuntu 20.04 Stable.
@@ -71,9 +73,9 @@ adicionais exigidos pelo Docker e pacotes associados.
 >
 >
 Depois que o comando for executado com êxito, considere adicionar o usuário 
-conectado no momento ao grupo docker. 
+conectado no momento ao grupo Docker. 
 >
-Isso permite que você execute o docker sem invocar o sudo.
+Isso permite que você execute comandos Docker sem invocar o sudo.
 >
 >
 ```
@@ -90,6 +92,22 @@ Agora você pode executar comandos do Docker como um usuário
 comum sem nenhum impedimento.
 >
 ### Passo 4 - Confirme se o Docker está instalado ###
+>
+Para verificar se o Docker está instalado, execute o comando:
+>
+```
+$ docker version
+```
+> 
+>
+Na saída abaixo, você pode ver que instalamos o Docker 20.10, que é a versão mais recente 
+do Docker no momento da publicação deste tutorial.
+>
+>
+![Saída da Instalação.](/11-docker/02-instalacao/99-imagens/tela_02.png "Verificação da Instalação.")
+>
+
+
 
 ### Passo 5 - Gerenciar o serviço Docker ###
 
