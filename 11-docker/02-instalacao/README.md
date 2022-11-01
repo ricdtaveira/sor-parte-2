@@ -44,6 +44,7 @@ Para fazer isso, adicionaremos a chave GPGK.
 >
 ```
 $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
 >
 Depois de adicionado, adicione o repositório do Docker da seguinte maneira.
 >
