@@ -14,7 +14,7 @@ Chamar o terminal do Lubuntu e seguir com os passos a seguir digitando comandos 
 >
 
 
-## Passos da Instalação ##
+## Passos da Instalação do Docker ##
 
 ### Passo 1 - Atualizar o Sistema ### 
 >
