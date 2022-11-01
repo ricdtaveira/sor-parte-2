@@ -56,7 +56,7 @@ Outro cliente do Docker é o Docker Compose, que permite trabalhar com aplicativ
 consistem em um conjunto de contêineres.
 >
 >
-
+![Arquitetura do Docker.](/99-figuras/arquitetura_docker.png "Arquitetura do Docker.")
 >
 
 >
