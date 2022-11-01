@@ -187,6 +187,9 @@ Para confirmar a criação de imagens no sistema, execute o comando:
 docker images
 >
 >
+![Imagem Criada!.](/11-docker/02-instalacao/99-imagens/tela_05.png "Imagem Criada.")
+>
+>
 Depois que o contêiner é criado, ele sai ou para automaticamente. 
 >
 Você ainda pode verificar os contêineres parados conforme mostrado.
@@ -201,7 +204,7 @@ docker ps -a
 ```
 >
 >
-![Contêineres Finalizados!.](/11-docker/02-instalacao/99-imagens/tela_05.png "Contêineres finalizados.")
+![Contêineres Finalizados!.](/11-docker/02-instalacao/99-imagens/tela_06.png "Contêineres finalizados.")
 >
 
 
