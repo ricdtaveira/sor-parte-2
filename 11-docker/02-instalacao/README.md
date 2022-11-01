@@ -1,7 +1,7 @@
 # Instalação do Docker # 
 
 >
-A instalação será realizada em uma máquina virtual VirtualBox com a distribuição Lubuntu 20.04.
+A instalação será realizada em uma máquina virtual VirtualBox com a distribuição [Lubuntu 20.04.5](https://cdimage.ubuntu.com/lubuntu/releases/focal/release/).
 >
 >
 Seguiremos o tutorial [Como Instalar O Docker No Ubuntu 22.04 | 20.04](https://cloudcone.com/docs/article/how-to-install-docker-on-ubuntu-22-04-20-04/).
