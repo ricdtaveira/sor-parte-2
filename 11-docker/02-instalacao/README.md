@@ -132,7 +132,7 @@ $ sudo systemctl status docker
 ![Status de Execução do Docker.](/11-docker/02-instalacao/99-imagens/tela_03.png "Verificação da Execução.")
 >
 >
-O Status Active: active (running) indica qe o Docker está carregado e executando.
+O status Active: active (running) indica que o Docker está carregado e executando.
 >
 >
 Se, por algum motivo, o Docker não estiver em execução, basta executar o seguinte 
@@ -163,5 +163,45 @@ $ sudo systemctl restart docker
 
 
 ### Passo 6 - Testar o Docker ###
+>
+Para testar o Docker, vamos carregar uma imagem 'hello-world' carregada no Docker Hub. 
+>
+A partir dessa imagem, será criado um container que exibe uma mensagem 'Hello world' 
+no terminal junto com os passos do que acontecem após a execução do comando.
+>
+>
+Executar o comando abaixo para testar a execução de um container.
+>
+>
+```
+docker run hello-world
+```
+>
+>
+![Hello World !.](/11-docker/02-instalacao/99-imagens/tela_04.png "Teste de Execução.")
+>
+>
+Para confirmar a criação de imagens no sistema, execute o comando:
+>
+>
+docker images
+>
+>
+Depois que o contêiner é criado, ele sai ou para automaticamente. 
+>
+Você ainda pode verificar os contêineres parados conforme mostrado.
+>
+>
+O comando abaixo quando executado mostrou dois contêineres que 
+foram carregados e finalizaram sua execução.
+>
+>
+```
+docker ps -a
+```
+>
+>
+![Contêineres Finalizados!.](/11-docker/02-instalacao/99-imagens/tela_05.png "Contêineres finalizados.")
+>
 
 
