@@ -68,10 +68,13 @@ que podem ser reutilizadas.
 O Serviço de Registry oficial é o [Docker Hub](https://hub.docker.com/_/registry).
 >
 >
-As imagens contidas no Docker Hub são criadas por distribuições Linux e empresa desenvolvedores de 
+As imagens contidas no Docker Hub são criadas por distribuições Linux e empresa desenvolvedoras de 
 software livre.    
 >
 >
 Desenvolvedores podem criar uma conta no Docker Hub e lá hospedarem imagens 
 desenvolvidas para futura reutilização.
+>
+>
+O meu repositório no Docker Hub é [ricdtaveira](https://hub.docker.com/search?q=ricdtaveira).
 >
