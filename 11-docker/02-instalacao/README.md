@@ -184,7 +184,9 @@ docker run hello-world
 Para confirmar a criação de imagens no sistema, execute o comando:
 >
 >
+```
 docker images
+```
 >
 >
 ![Imagem Criada!.](/11-docker/02-instalacao/99-imagens/tela_05.png "Imagem Criada.")
