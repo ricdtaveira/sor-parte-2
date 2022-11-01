@@ -13,7 +13,7 @@ vários contêineres simultaneamente em um determinado host.
 >
 >
 Os contêineres são leves e contêm tudo o que é necessário para executar o 
-software, daí, osoftware não precisa depender do que está instalado no host. 
+software, daí, o aplicativo não precisa depender do que está instalado no host. 
 >
 >
 Contêineres são instanciados na memória a partir de uma imagem. Imagens podem facilmente ser 
@@ -22,10 +22,12 @@ gerada do mesmo contêiner que funciona da mesma maneira.
 >
 >
 O Docker fornece ferramentas e uma plataforma para gerenciar o ciclo de vida de 
-suas imagens e contêinerescontêineres:
+suas imagens e contêineres.
 >
 >
 Desenvolva seu aplicativo e seus componentes de suporte usando contêineres.
+>
+>
 O contêiner se torna a unidade para distribuir e testar seu aplicativo.
 Quando estiver pronto, implante seu aplicativo em seu ambiente de produção, como 
 um contêiner ou um serviço orquestrado. 
@@ -33,4 +35,28 @@ um contêiner ou um serviço orquestrado.
 >
 Isso funciona da mesma forma se seu ambiente de produção for um data center local, 
 um provedor de nuvem ou um híbrido dos dois.
+>
+
+## A Arquitetura do Docker ##
+
+>
+O Docker usa uma arquitetura cliente-servidor. 
+>
+>
+O cliente Docker conversa com o daemon do Docker , que faz o trabalho pesado de 
+construir, executar e distribuir seus contêineres Docker. 
+>
+O cliente e o daemon do Docker podem ser executados no mesmo sistema ou você pode 
+conectar um cliente do Docker a um daemon remoto do Docker. 
+>
+O cliente Docker e o daemon se comunicam usando uma API REST, em soquetes UNIX ou 
+uma interface de rede. 
+>
+Outro cliente do Docker é o Docker Compose, que permite trabalhar com aplicativos que 
+consistem em um conjunto de contêineres.
+>
+>
+
+>
+
 >
