@@ -7,6 +7,9 @@ A instalação será realizada em uma máquina virtual VirtualBox com a distribu
 Seguiremos o tutorial [Como Instalar O Docker No Ubuntu 22.04 | 20.04](https://cloudcone.com/docs/article/how-to-install-docker-on-ubuntu-22-04-20-04/).
 >
 >
+Chamar o terminal do Lubuntu e seguir com os passos a seguir digitando comandos shell.
+>
+>
 ![nicio da Instalaçãoclearning.](/11-docker/02-instalacao/99-imagens/tela_01.png "Inicio da Instalação.")
 >
 
@@ -114,6 +117,47 @@ do Docker no momento da publicação deste tutorial.
 
 
 ### Passo 5 - Gerenciar o serviço Docker ###
+>
+Por padrão, o Docker inicia automaticamente na instalação. 
+>
+>
+Para verificar isso, execute o comando:
+>
+>
+```
+$ sudo systemctl status docker
+```
+>
+>
+![Status de Execução do Docker.](/11-docker/02-instalacao/99-imagens/tela_03.png "Verificação da Execução.")
+>
+>
+Se, por algum motivo, o Docker não estiver em execução, basta executar o seguinte 
+comando:
+>
+>
+```
+$ sudo systemctl start docker
+```
+>
+>
+Para permitir que o Docker seja iniciado automaticamente toda vez na inicialização do 
+sistema, execute o comando:
+>
+>
+```
+$ sudo systemctl enable docker
+```
+>
+>
+Para reiniciar o Docker, execute:
+>
+>
+```
+$ sudo systemctl restart docker
+```
+>
+
 
 ### Passo 6 - Testar o Docker ###
 
