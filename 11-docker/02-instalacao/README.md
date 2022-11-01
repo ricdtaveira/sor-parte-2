@@ -194,10 +194,10 @@ docker images
 >
 Depois que o contêiner é criado, ele sai ou para automaticamente. 
 >
-Você ainda pode verificar os contêineres parados conforme mostrado.
+Você ainda pode verificar os contêineres que finalizaram a sua execução. 
 >
 >
-O comando abaixo quando executado mostrou dois contêineres que 
+O comando abaixo quando executado mostra dois contêineres que 
 foram carregados e finalizaram sua execução.
 >
 >
