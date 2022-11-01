@@ -58,5 +58,12 @@ consistem em um conjunto de contêineres.
 >
 ![Arquitetura do Docker.](/11-docker/99-figuras/arquitetura_docker.png "Arquitetura do Docker.")
 >
+>
+O Docker Registry é um serviço na nuvem que funciona como um repositório de imagens Docker
+que podem ser reutilizadas.  
+>
+>
+O Serviço de Registry oficial é o [Docker Hub](https://hub.docker.com/_/registry).
+>
 
 >
