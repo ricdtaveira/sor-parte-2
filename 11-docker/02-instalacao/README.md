@@ -6,6 +6,10 @@ A instalação será realizada em uma máquina virtual VirtualBox com a distribu
 >
 Seguiremos o tutorial [Como Instalar O Docker No Ubuntu 22.04 | 20.04](https://cloudcone.com/docs/article/how-to-install-docker-on-ubuntu-22-04-20-04/).
 >
+>
+![nicio da Instalaçãoclearning.](/11-docker/02-instalacao/99-imagens/tela_01.png "Inicio da Instalação.")
+>
+
 
 ## Passos da Instalação ##
 
