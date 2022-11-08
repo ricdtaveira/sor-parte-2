@@ -53,9 +53,7 @@ O comando demonstrado abaixo apresenta os dados do container. Os dados contidos
 no arquivo `lsb-realease` possuem atributos da imagem do container.
 >
 > 
-```
 ![Dados do Container.](/11-docker/03-explorando/99-figuras/tela_01.png "Dados do Container.")
-```
 >
 
 ### Listar Containers ### 
