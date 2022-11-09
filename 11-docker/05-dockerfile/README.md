@@ -3,7 +3,7 @@
 ## Introdução ##
 >
 O processo de criação de uma imagem e a posterior inclusão de um software a partir 
-de uma imagem base foi demonstrado com o uso do 'docker commit'.
+de uma imagem base foi demonstrado com o uso do `docker commit`.
 >
 >
 Faremos uso agora de um recurso do Docker que faz essa evolução de uma imagem base 
