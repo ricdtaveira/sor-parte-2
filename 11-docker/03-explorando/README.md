@@ -58,7 +58,8 @@ no arquivo `lsb-realease` possuem atributos da imagem do container.
 
 ### Listar Containers ### 
 >
-O Comado abaixo lista containers 
+O Comando abaixo lista containers que foram inicialidados ou pausados.
+>
 
 ## Alteração de uma Imagem ##
 
