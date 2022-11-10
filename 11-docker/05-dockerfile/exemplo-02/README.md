@@ -44,7 +44,7 @@ o arquivo exemplo.
 >
 ```
 FROM ubuntu
-MAINTAINER Daniel Romero <infoslack@gmail.com>
+MAINTAINER Ricardo Taveira <ricdtaveira@gmail.com>
 RUN apt-get update
 RUN apt-get install -y nginx
 ADD exemplo /etc/nginx/sites-enabled/default
