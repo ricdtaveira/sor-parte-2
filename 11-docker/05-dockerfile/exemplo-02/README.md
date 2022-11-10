@@ -9,7 +9,7 @@ Um container é instanciado na memória a partir deuma imagemque o define.
 >
 ## Docker File inicial ##
 >
-Arquivo Dockerfile inicial.
+Arquivo `exemplo` que será copiado para a área do `Nginx`.
 > 
 >
 ```
@@ -22,6 +22,9 @@ index index.html index.htm;
 ```
 
 >
+Texto do arquivo Dockerfile que será usado na versão inicial da imagem 
+inicial do exemplo-02.
+
 >
  ```
 FROM ubuntu
@@ -34,7 +37,10 @@ EXPOSE 8080
 >
 
 ### Docker File alterado ###
-
+>
+Arquivo Dockerfile com alterações implementado a feature para copiar 
+o arquivo exemplo.   
+>
 >
 ```
 FROM ubuntu
