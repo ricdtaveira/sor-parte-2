@@ -57,10 +57,24 @@ As seguintes configurações estam caracterizadas como:
 >
 >
 1. A opção `-v` está definindo o mapeamento de volume onde, o volume `/tmp/nginx` 
-está sendo mapeado para o volume `/usr/share/nginx/html`.
+localizado no host está sendo mapeado para o volume `/usr/share/nginx/html` localizado no container.
 >
 >
-
+2. A opção `ro` define o volume como `read-only`.
+>
+>
+A imagem a ser carregada é a `nginx`.
+>
+#### Teste de volume #### 
+>
+O teste consiste em fazer uma requisição http ao `nginx`.  
+>
+> 
+A requisição http irá falhar, pois não existe um arquivo index.html.
+>
+>
+A correção dessa falha consiste em gravar um arquivo `index.html` no volume 
+`/tmp/nginx/index.html` localizado no host. 
 >
 
 ### Exemplo de compartilhamento de volumes usando o Mysql ### 
