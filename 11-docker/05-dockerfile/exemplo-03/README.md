@@ -39,5 +39,30 @@ compartilhamento e persistência de dados.
 3. Volumes alterados não são incluídos quando atualizamos uma imagem. 
 >
 
+### Exemplo de compartilhamento de volumes usando o Nginx ### 
+<
+O exemplo a seguir usará o mapeamento de volumes entre um host e um container da seguinte
+forma: 
+1. Usaremos um container Nginx;
+2. Faremos o mapeamento de um volume contido no host com um container contido no 
+no container.
+>
+>
+```
+$ docker run -d -p 8080:8080 -v /tmp/nginx:/usr/share/nginx/html:ro nginx
+```
+>
+>
+As seguintes configurações estam caracterizadas como: 
+>
+>
+1. A opção ´-v´ está definindo o mapeamento de volume onde, o volume ´/tmp/nginx´ 
+está sendo mapeado para o volume ´/usr/share/nginx/html´
+>
+>
+
+>
+
+### Exmplo de compartilhamento de volumes usando o Mysql ### 
 
 
