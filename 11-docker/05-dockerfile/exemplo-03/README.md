@@ -40,7 +40,7 @@ compartilhamento e persistência de dados.
 >
 
 ### Exemplo de compartilhamento de volumes usando o Nginx ### 
->clclc
+>
 O exemplo a seguir usará o mapeamento de volumes entre um host e um container da seguinte
 forma: 
 1. Usaremos um container Nginx;
