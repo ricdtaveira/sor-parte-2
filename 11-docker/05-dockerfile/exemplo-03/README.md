@@ -40,7 +40,7 @@ compartilhamento e persistência de dados.
 >
 
 ### Exemplo de compartilhamento de volumes usando o Nginx ### 
-<
+>clclc
 O exemplo a seguir usará o mapeamento de volumes entre um host e um container da seguinte
 forma: 
 1. Usaremos um container Nginx;
@@ -56,13 +56,13 @@ $ docker run -d -p 8080:8080 -v /tmp/nginx:/usr/share/nginx/html:ro nginx
 As seguintes configurações estam caracterizadas como: 
 >
 >
-1. A opção ´-v´ está definindo o mapeamento de volume onde, o volume ´/tmp/nginx´ 
-está sendo mapeado para o volume ´/usr/share/nginx/html´
+1. A opção `-v` está definindo o mapeamento de volume onde, o volume `/tmp/nginx` 
+está sendo mapeado para o volume `/usr/share/nginx/html`.
 >
 >
 
 >
 
-### Exmplo de compartilhamento de volumes usando o Mysql ### 
+### Exemplo de compartilhamento de volumes usando o Mysql ### 
 
 
