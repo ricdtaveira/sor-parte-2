@@ -76,7 +76,7 @@ $ curl -IL http://localhost:8080
 ```
 >
 > 
-A requisição http irá falhar, pois não existe um arquivo index.html.
+A requisição http irá falhar, pois não existe um arquivo `index.html`.
 >
 >
 A correção dessa falha consiste em gravar um arquivo `index.html` no volume 
