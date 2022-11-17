@@ -62,7 +62,7 @@ localizado no host está sendo mapeado para o volume `/usr/share/nginx/html` loc
 2. A opção `ro` define o volume como `read-only`.
 >
 >
-A imagem a ser carregada é a `nginx`.
+3. A imagem a ser carregada é a `nginx`.
 >
 #### Teste de volume #### 
 >
@@ -90,6 +90,11 @@ It works!
 ```
 >
 
+>
+A resposta ao get do http `It works!` evidencia a existencia de um arquivo index.html criado 
+np volume /tmp/nginx/ localizado no host. Porém a requisição feita foi ao container no volume 
+´/usr/share/nginx/html´ localizado no container e correponde ao volume mapeado no host.
+>
 ### Exemplo de compartilhamento de volumes usando o Mysql ### 
 
 
