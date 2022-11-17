@@ -44,8 +44,7 @@ compartilhamento e persistência de dados.
 O exemplo a seguir usará o mapeamento de volumes entre um host e um container da seguinte
 forma: 
 1. Usaremos um container Nginx;
-2. Faremos o mapeamento de um volume contido no host com um container contido no 
-no container.
+2. Faremos o mapeamento de um volume contido no host com um volume contido no container.
 >
 >
 ```
