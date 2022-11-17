@@ -68,6 +68,12 @@ A imagem a ser carregada é a `nginx`.
 #### Teste de volume #### 
 >
 O teste consiste em fazer uma requisição http ao `nginx`.  
+> 
+>
+Usar o comando abaixo:
+```
+$ curl -IL http://localhost:8080
+```
 >
 > 
 A requisição http irá falhar, pois não existe um arquivo index.html.
@@ -75,6 +81,14 @@ A requisição http irá falhar, pois não existe um arquivo index.html.
 >
 A correção dessa falha consiste em gravar um arquivo `index.html` no volume 
 `/tmp/nginx/index.html` localizado no host. 
+>
+>
+Usar o comando abaixo:
+```
+$ echo "It works!" > /tmp/nginx/index.html
+$ curl http://localhost:8080
+It works!
+```
 >
 
 ### Exemplo de compartilhamento de volumes usando o Mysql ### 
