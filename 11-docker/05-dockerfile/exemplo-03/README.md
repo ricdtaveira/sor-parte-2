@@ -91,10 +91,38 @@ It works!
 >
 
 >
-A resposta ao get do http `It works!` evidencia a existencia de um arquivo index.html criado 
-np volume /tmp/nginx/ localizado no host. Porém a requisição feita foi ao container no volume 
-´/usr/share/nginx/html´ localizado no container e correponde ao volume mapeado no host.
+A resposta ao get do http `It works!`, evidencia a existencia de um arquivo index.html criado 
+no volume /tmp/nginx/ localizado no host. Porém a requisição feita foi ao container no volume 
+´/usr/share/nginx/html´ que correponde ao volume mapeado no host.
 >
 ### Exemplo de compartilhamento de volumes usando o Mysql ### 
+>
+Usaremos nesse exemplo um container que executará um banco de dados Mysql. Nele, é possível 
+controlar os dados que serão armazenados em disco, fazer backups e restaurações.
+>
+Usaremos o Dockerfile abaixo:
+>
+>
+```
+FROM ubuntu
+MAINTAINER Ricardo Taveira <ricdaveira@gmail.com>
+
+ENV DEBIAN_FRONTEND noninteractive
+
+RUN apt-get update -qq && apt-get install -y mysql/mysql-server:5.5
+
+ADD my.cnf /etc/mysql/conf.d/my.cnf
+
+RUN chmod 664 /etc/mysql/conf.d/my.cnf
+
+ADD run /usr/local/bin/run
+
+RUN chmod +x /usr/local/bin/run
+
+VOLUME ["/var/lib/mysql"]
+
+EXPOSE 3306
+```
 
 
+>
