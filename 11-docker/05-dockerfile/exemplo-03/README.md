@@ -105,6 +105,7 @@ Usaremos o Dockerfile abaixo:
 >
 ```
 FROM ubuntu
+
 MAINTAINER Ricardo Taveira <ricdaveira@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
