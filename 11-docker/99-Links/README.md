@@ -2,6 +2,8 @@
 >
 Abaixo temos links para conteúdos de Docker Compose.
 >
+1. Docker Compose 
+https://docker.rafaeldutra.me/beginner/docker-compose/
 
 1. Docker Compose na prática (Fácil)
 https://www.youtube.com/watch?v=HxPz3eLnXZk
