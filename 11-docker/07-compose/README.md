@@ -22,12 +22,25 @@ O uso do Docker Compose pressupõe a configuração de um arquivo no qual são c
 os container que irão compor a solução.
 >
 >
+O Arquivo de configuração usa o format YAML. Nesse formato é usado uma notação parecida 
+com JSON. 
+> 
+> 
 
+>
+
+### Exemplos de uso do Docker Compose ###
+>
+Há varias possibiidades de uso do Docker Compose. Abaixo são definidos exemplos 
+de utilização.
 >
 #### Uma aplicação Web que acessa um banco de dados ####
 Em um container é instalado um servidor web Apache com PHP. Em um outro container é 
 instalado um servidor de Banco de Dados com Mysql.
 >
 >
-#### 
+#### Uma Aplicação que usa Wordpress ####
+>
+Em um container é instalada uma imagem pronta de um servidor Wordpress que armazena
+seus blogs em um banco de dados.
 >
